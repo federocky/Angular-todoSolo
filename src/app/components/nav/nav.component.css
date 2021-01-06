@@ -1,0 +1,23 @@
+nav {
+    background-color: yellowgreen;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    padding: 12px 50px;
+}
+
+li {
+    padding: 8px;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 18px;
+}
+
+.active {
+    text-decoration: underline;
+    font-size: 20px;
+}

@@ -1,0 +1,9 @@
+<li class="list-group-item list-group-item-primary" *ngIf="(todo.done == true)">{{ todo.id }} - {{ todo.name }}
+    <div (click)="eliminarTarea(todo.id)">x</div>
+    <div (click)="marcaHecho()">v</div>
+</li>
+
+<li class="list-group-item " *ngIf="(todo.done == false)">{{ todo.id }} - {{ todo.name }}
+    <div (click)="eliminarTarea(todo.id) ">x</div>
+    <div (click)="marcaHecho() ">v</div>
+</li>

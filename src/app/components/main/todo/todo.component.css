@@ -1,0 +1,17 @@
+div {
+    float: right;
+    background-color: red;
+    color: #fff;
+    padding: 1px 1px 5px 1px;
+    margin: 4px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #333;
+}
+
+div:last-child {
+    background-color: rgb(117, 163, 24);
+}
